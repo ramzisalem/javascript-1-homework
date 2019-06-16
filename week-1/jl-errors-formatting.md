@@ -29,6 +29,7 @@ the fix:
 let a = 1;
 ```
 your notes:
+Notes always perfect!
 
 [TOP](#formatting-errors)
 
