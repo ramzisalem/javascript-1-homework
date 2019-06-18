@@ -19,14 +19,16 @@ two lines';
 ```
 error message:
 ```
+Uncaught SyntaxError: Invalid or unexpected token
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
-```
+let a = "this is" +
+"two lines" ;```
 your notes:
 
 [TOP](#primitive-type-errors)
@@ -41,13 +43,15 @@ let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected identifier
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax
 
 the fix:
 ```js
+let innerHtml = "<p>Click here to <a href='#Home'>return home</a></p>";
 ```
 your notes:
 
@@ -63,13 +67,15 @@ let nested_messages = 'remind yourself ''i can do this!'' at least once a day';
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected string
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+let nested_messages = 'remind yourself' + 'i can do this!' + 'at least once a day';
 ```
 your notes:
 
