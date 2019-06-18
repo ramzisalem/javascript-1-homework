@@ -1,10 +1,10 @@
 > begin [the debugging exercises](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging) and paste each of your solutions into this file.  This will allow you to use your FCC exercises as a study reference later on  
 > [completed example](https://github.com/AlfiYusrina/hyf-javascript1/blob/master/week1/freecode_camp_solutions.MD)  (wrong exercises, correct markdown styling)
 
-Homework
-Debugging: Use the JavaScript Console to Check the Value of a Variable
+# Homework
+## Debugging: Use the JavaScript Console to Check the Value of a Variable
 
---js
+```js
 let a = 5;
 let b = 1;
 a++;
@@ -13,4 +13,4 @@ a++;
 
 let sumAB = a + b;
 console.log(a);
----
+```
