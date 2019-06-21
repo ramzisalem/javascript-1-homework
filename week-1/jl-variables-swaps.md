@@ -25,11 +25,26 @@ a = _;
 ```
 1. [the second](https://goo.gl/KvayUU)
 ```js
-// your solution here
+let a = "c", b = "a", c = "b";
+let _ = ' ';
+
+// can be done in 4 lines
+_ = a;
+a = b;
+b = c;
+c = _;
 ```
 1. [the third](https://goo.gl/WXXtV7)
 ```js
-// your solution here
+let a = "d", b = "a", c = "b", d = "c";
+let _ = ' ';
+
+// can be done in 5 lines
+_ = a;
+a = b;
+b = c;
+c = d;
+d = _;
 ```
 1. [the fourth](https://goo.gl/nTA1DG)
 ```js
