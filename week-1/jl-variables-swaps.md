@@ -61,7 +61,17 @@ c = _;
 ```
 1. [the fifth](https://goo.gl/gDaKNi)
 ```js
-// your solution here
+let a = "z", b = "y", c = "x", d = "w", e = "v";
+let _ = ' ';
+
+// can be done in 6 lines
+_ = a;
+a = e;
+e = _
+_ = b;
+b = d;
+d = _;
+
 ```
 
 ___
