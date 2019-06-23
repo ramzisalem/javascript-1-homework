@@ -2,15 +2,15 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` | ⚠️ | Still working on it, I will do it multiple times to be stucked in my mind | | |
-| :dash: __[fcc debugging](./fcc-debugging.md)__ | ✅ | easily done! | | |
-| :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | ✅ | Perfect! | | |
-| :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | ✅ | All is okay | | |
-| :seedling: __[errors: variables](./jl-errors-variables.md)__ | ✅ | It's okay | | |
-| :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | ✅ | it was interesting | | |
-| :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | ✅ | done | | |
-| :seedling: __[how functions work](./jl-functions.md)__ | ✅ | so important to understand | | |
-| :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ | ✅ | easily done | | |
+| :seedling: __[fcc basics](./fcc-basic-js-pt-1.md)__: through ```Counting Cards``` | ⚠️ | Still working on it, I will do it multiple times to be stucked in my mind | :warning: | could you still paste in what you've done so far? |
+| :dash: __[fcc debugging](./fcc-debugging.md)__ | ✅ | easily done! | :white_check_mark: | |
+| :seedling: __[errors: formatting](./jl-errors-formatting.md)__ | ✅ | Perfect! | :white_check_mark: | |
+| :seedling: __[errors: primitives](./jl-errors-primitive-types.md)__ | ✅ | All is okay | :white_check_mark: | |
+| :seedling: __[errors: variables](./jl-errors-variables.md)__ | ✅ | It's okay | :white_check_mark: | the second error is actually execution phase. you can tell because python tutor makes it to the step-through page |
+| :seedling: __[varibales: swaps](./jl-variables-swaps.md)__ | ✅ | it was interesting | :warning: | didn't finish? up till the last is good |
+| :dash: __[variables: multiple assignments](./jl-variables-multiple.md)__ | ✅ | done | :white_check_mark: | |
+| :seedling: __[how functions work](./jl-functions.md)__ | ✅ | so important to understand | :warning: | not finished, but you got the first few and recognized this is important.  we'll go over this in class |
+| :dash: __[functions: turtle shuffle](./jl-turtle-shuffle.md)__ | ✅ | easily done | :warning: | didn't even start? |
 
 ---
 
