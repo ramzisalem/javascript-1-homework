@@ -18,13 +18,16 @@ let b = a.b.3
 ```
 error message:
 ```
+Uncaught SyntaxError: Unexpected number
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase
+* syntax
 
 the fix:
 ```js
+let a = {b:3};
+let b = a.a;
 ```
 your notes:
 
@@ -40,13 +43,17 @@ let y = b.e;
 ```
 error message:
 ```
+Uncaught ReferenceError: b is not defined
+    at <anonymous>:2:9
 ```
 classification:
-* creation phase or execution phase ?
-* syntax or semanitc ?
+* creation phase 
+* syntax 
 
 the fix:
 ```js
+let x = {b:'e'};
+let y = x;
 ```
 your notes:
 
