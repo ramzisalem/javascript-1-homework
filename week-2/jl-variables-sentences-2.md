@@ -20,6 +20,25 @@ See how few reassignments you can use per step!
 
 ### challenges: 
 1. [the toad reads me](https://goo.gl/4eqhLb)
+---js
+// the toad reads me
+
+// we give you this
+let _1 = " ", _2 = " ", _3 = " ", _4 = " ", _5 = " ";
+let x = ' ', y = ' ';
+
+// you write this
+
+// the
+_1 = "t", _2 = "h", _3 = "e";
+// toad
+x = _3;
+_2 = "o", _3 = "a", _4 = "d";
+// reads
+_1 = "r", _2 = x, _5 = "s";
+// me
+_1 = "m", _3 = " ", _4 = " ", _5 = " ";
+---
 1. [eating meat every meal](https://goo.gl/F9Njwp)
 1. [many men may melt my mind](http://www.pythontutor.com/javascript.html#code=//%20many%20men%20may%20melt%20my%20mind%0A%0A//%20we%20give%20you%20this%0Alet%20_1%20%3D%20'%20',%20_2%20%3D%20'%20',%20_3%20%3D%20'%20',%20_4%20%3D%20'%20'%3B%0Alet%20x,%20y%3B%0A//%20--%20you%20write%20this%20--%0A%0A//%20many%0A%0A//%20men%0A%0A//%20may%0A%0A//%20melt%0A%0A//%20my%0A%0A//%20mind&mode=edit&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D)
 1. [if fir trees ever fall](https://goo.gl/BCC6pz)
