@@ -256,15 +256,35 @@ __original code__
 __refactored and traced__
 ```js
 {
+  const x =  ; // test out a bunch of values
 
+  const expression = x === +x || x === !x;
+  const truthiness = Boolean(expression);
+
+  let path;
+
+  if ( truthiness ) {
+    path = "if";
+  } else {
+    path = "else";
+  }
+
+  console.log("x: " + typeof x + ", " + x);
+  console.log("EXP: ", typeof expression+", "+expression);
+  console.log("PATH: ", path);
 }
+
 ```
 
 __some tracings__
 ```js
-// find 6+ tracing values
-// try to find at least 1 set for each path
-// or can you? some paths are unreachable!
+x: 5, path: else
+x: 'ramzi', path: else
+x: null, path: else
+x: false, path: else
+x: NaN, path: else
+x: undefined, path: else
+//So I think "IF" is unreachable!
 ```
 
 
@@ -296,15 +316,41 @@ __original code__
 __refactored and traced__
 ```js
 {
+const x = ; // test out a bunch of values
 
+  const expression_1 = x === +x;
+  const truthiness_1 = Boolean(expression_1);
+
+  const expression_2 = x === !x;
+  const truthiness_2 = Boolean(expression_2);
+
+  let path;
+
+  if ( truthiness_1 ) {
+    path = "if";
+  } else if ( truthiness_2 ) {
+    path = "else if";
+  } else {
+    path = "else";
+  }
+
+  console.log("x: " + typeof x + ", " + x);
+  console.log("FIRST EXP: ", typeof expression_1+", "+expression_1);
+  console.log("SECOND EXP: ", typeof expression_2+", "+expression_2);
+  console.log("PATH: ", path);
 }
 ```
 
 __some tracings__
 ```js
-// find 6+ tracing values
-// try to find at least 1 set for each path
-// or can you? some paths are unreachable!
+x: 5, path: if
+x: null, path: else
+x: 'ramzi', path: else
+x: NaN, path: else
+x: true, path: else
+x: false, path: else
+x: undefined, path: else
+// the "else if" is unreachable!
 ```
 
 
@@ -337,15 +383,41 @@ __original code__
 __refactored and traced__
 ```js
 {
+  const x = , y = ; // test out a bunch of values
 
+  const expression_1 = x == +x;
+  const truthiness_1 = Boolean(expression_1);
+
+  const expression_2 = x == !!x;
+  const truthiness_2 = Boolean(expression_2);
+
+  let path;
+
+  if ( truthiness_1 ) {
+    path = "first if";
+  } if ( truthiness_2 ) {
+    path = "second if";
+  } else {
+    path = "else";
+  }
+
+  console.log("x: " + typeof x + ", " + x);
+  console.log("y: " + typeof y + ", " + y);
+  console.log("FIRST EXP: ", typeof expression_1+", "+expression_1+", "+truthiness_1+"y");
+  console.log("SECOND EXP: ", typeof expression_2+", "+expression_2+", "+truthiness_2+"y");
+  console.log("PATH: ", path);
 }
 ```
 
 __some tracings__
 ```js
-// find 6+ tracing values
-// try to find at least 1 set for each path
-// or can you? some paths are unreachable!
+x: 5, y: 6, path: else
+x: 0, y: 0, path: second if
+x: null, y: 4, path: else
+x: true, y: 3, path: second if
+x: false, y: NaN, path: second if
+x: 0, y: 1, path: second if
+
 ```
 
 
