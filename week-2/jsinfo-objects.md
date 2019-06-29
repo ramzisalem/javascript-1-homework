@@ -11,7 +11,7 @@ user.name = "Pete";
 delete user.name;
 ```
 
-## 1. Check for emptiness
+## 2. Check for emptiness
 ```js
 function isEmpty(obj) {
   for (let key in obj) {
@@ -22,7 +22,7 @@ function isEmpty(obj) {
 }
 ```
 
-## 1. Constant objects?
+## 3. Constant objects?
 ```js
 const user = {
   name: "John"
@@ -35,7 +35,7 @@ user.name = "Pete";
 user = 123;
 ```
 
-## 1. Sum object properties
+## 4. Sum object properties
 ```js
 let salaries = {
   John: 100,
@@ -49,7 +49,7 @@ for (let key in salaries) {
 }
 ```
 
-## 1. Multiply numeric properties by 2
+## 5. Multiply numeric properties by 2
 ```js
 function multiplyNumeric(obj) {
   for (let key in obj) {
