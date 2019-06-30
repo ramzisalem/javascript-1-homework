@@ -248,8 +248,9 @@ console.assert(array !== by_copy);
 
   function start_new_object(obj) {
     var new_obj = {};
-    for (let i = Object.keys(obj).length - 1; i>=0; i--){
-      new_obj = Object.assign(i);
+
+    for (let key in obj) {
+      new_obj[key] = obj[key];
   }
   return new_obj;
   }
