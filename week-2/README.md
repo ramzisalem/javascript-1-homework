@@ -2,19 +2,19 @@
 
 |  | your Emoji | your comments | coach emoji | coach comments |
 | --- | --- | --- | --- | --- |
-| :seedling: __[fcc: finish js basics](./fcc-basic-js-pt-2.md) | ✅ | | | |
-| :dash: __[janke: tracing conditionals](./jl-tracing-conditionals.md) | ✅ | There is still some exercises I have to finish it | | |
-| :seedling: __[javascript.info: loops](./jsinfo-loops.md) | :wavy_dash: | | | |
-| :dash: __[janke: loop refactors](./jl-loop-refactors.md) | :wavy_dash: | | | |
-| :seedling: __[fcc: data structures](./fcc-data-structures.md) | ✅ | | | |
-| :seedling: __[janke: errors const](./jl-errors-const.md) | ✅ | | | |
-| :seedling: __[janke: errors arrays](./jl-errors-arrays.md) | ✅ | | | |
-| :seedling: __[janke: errors objects](./jl-errors-objects.md) | ✅ | | | |
-| :seedling: __[javascript.info: objects](./jsinfo-objects.md) | ✅ | | | |
-| :dash: __[janke: reference types](./jl-reference-types.md) | ✅ | | | |
-| :fire: __[janke: ref-type arguments](./jl-functions-ref-type-args.md) | ✅ | | | |
-| :dash: __[janke: sentences w/o temps](./jl-variables-sentences-1.md) | ✅ | | | |
-| :fire: __[janke: sentences w/ temps](./jl-variables-sentences-2.md) | ✅ | | | |
+| :seedling: [fcc: finish js basics](./fcc-basic-js-pt-2.md) | ✅ | |  ✅ | |
+| :dash: [janke: tracing conditionals](./jl-tracing-conditionals.md) | ✅ | There is still some exercises I have to finish it |  ✅ | any more questions since we talked?  |
+| :seedling: [javascript.info: loops](./jsinfo-loops.md) | :wavy_dash: | | | |
+| :dash: [janke: loop refactors](./jl-loop-refactors.md) | :wavy_dash: | | | |
+| :seedling: [fcc: data structures](./fcc-data-structures.md) | ✅ | | ✅ | |
+| :seedling: [janke: errors const](./jl-errors-const.md) | ✅ | | ✅ | check your creation/syntax decisions |
+| :seedling: [janke: errors arrays](./jl-errors-arrays.md) | ✅ | | ✅ | |
+| :seedling: [janke: errors objects](./jl-errors-objects.md) | ✅ | | ✅ | you fixed the errors, but didn't get at the _intended_ behavior.  |
+| :seedling: [javascript.info: objects](./jsinfo-objects.md) | ✅ | | ✅ | |
+| :dash: [janke: reference types](./jl-reference-types.md) | ✅ | | ✅ | your solutions aren't in there, but we saw this together |
+| :fire: [janke: ref-type arguments](./jl-functions-ref-type-args.md) | ✅ | | ✅ | |
+| :dash: [janke: sentences w/o temps](./jl-variables-sentences-1.md) | ✅ | | :green_heart: | "eating meat" & "fir trees" have an off word |
+| :fire: [janke: sentences w/ temps](./jl-variables-sentences-2.md) | ✅ | | :green_heart: |  |
 
 
 
